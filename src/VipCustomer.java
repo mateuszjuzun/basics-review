@@ -20,4 +20,8 @@ public VipCustomer(String name,String emailAddress){
         this(name, 12345, emailAddress);
 }
 
+    public VipCustomer(String name, long creditLimit) {
+        this.name = name;
+        this.creditLimit = creditLimit;
+    }
 }
